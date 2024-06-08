@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no,i=1,f=1;
+printf("enter the no ");
+scanf("%d",&no);
+while(i<=no){
+f=f*i;
+i++;
+}
+printf("the factoril of number is %d",f);
+getch();;
+}

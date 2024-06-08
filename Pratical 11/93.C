@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no,f,l,rem,temp;
+clrscr();
+printf("enter a no");
+scanf("%d",&no);
+temp=no;
+f=no;
+l=temp%10;
+while(f>=10){
+f=f/10;
+}
+
+printf("first = %d and last = %d",f,l);
+getch();
+}

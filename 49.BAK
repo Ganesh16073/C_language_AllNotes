@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int now,max,all,alr;
+printf("enter no of can join \n");
+scanf("%d",&all);
+printf("enter no of friends want to join \n");
+scanf("%d",&now);
+printf("enter no of freiends joined \n");
+scanf("%d",&alr);
+alr+now==all ? printf("yes"): printf("no");
+getch();
+}
+

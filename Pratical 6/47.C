@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int can,now;
+clrscr();
+printf("enter the noof gaurd can manuplicated by ezio \n");
+scanf("%d",&can);
+printf("enter the no of gaurd are present \n");
+scanf("%d",&now);
+can>=now ? printf("yes") : printf("No")   ;
+getch();
+}

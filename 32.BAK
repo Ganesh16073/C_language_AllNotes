@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+char c;
+clrscr();
+printf("enter the char \n");
+scanf("%c",&c);
+c>='a'&& c<='z'|| c>='A'&& c<='Z' ? printf("it is alphabet \n"):
+printf("it is not alphabat \n");
+
+c>='0'&& c<='9' ? printf("it is digit") : printf("it is special char");
+getch();
+}
+

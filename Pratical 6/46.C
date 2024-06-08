@@ -1,0 +1,13 @@
+	#include<stdio.h>
+#include<conio.h>
+void main(){
+float bal,wtd;
+clrscr();
+printf("enter the balence of account \n");
+scanf("%f",&bal);
+printf("enter the amount to withdraw \n");
+scanf("%f",&wtd);
+(int)wtd%5==0 ? printf("the balence is = %f$",bal-wtd-0.5) :
+printf("Enter withdraw amount multiple of 5");
+getch();
+}

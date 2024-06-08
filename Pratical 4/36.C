@@ -1,0 +1,21 @@
+/* Write a C program to check whether number is palindrome or not.
+		input- 121
+		output- Number is palindrome.
+		
+		input- 123
+		output- Number is not palindrome.*/
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no,sum,rev,org;
+clrscr();
+printf("enter the 3 digit number \n");
+scanf("%d",&no);
+org=no;
+rev=no%10;
+no=no/10;
+rev=rev*100+((no%10)*10)+(no/10);
+org==rev ? printf("it is palindrome")   : printf("it is not palindrome");
+getch();
+}
+

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int hight;
+clrscr();
+printf("enter the hight \n");
+scanf("%d",&hight);
+if(hight<150)
+printf("person is drawf");
+else if(hight>=150 && hight<=165)
+printf("personn is average") ;
+else if(hight>=165 && hight<=195);
+printf("person is taller");
+getch();
+}

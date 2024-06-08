@@ -1,0 +1,28 @@
+// check num is armstrong
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main(){
+int no,count=0,temp,rem,sum=0,p;
+clrscr();
+printf("enter the no\n");
+scanf("%d",&no);
+temp=no;
+while(no!=0){
+no=no/10;
+count++;
+}
+no=temp;
+while(no!=0){
+rem=no%10;
+no=no/10;
+p=pow(rem,count);
+sum=sum+p;
+}
+if(sum==no)
+printf("Num is armstrong");
+else printf("Num is Not armstrong");
+getch();
+}
+
+

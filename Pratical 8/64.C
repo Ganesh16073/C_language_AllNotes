@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+char c;
+clrscr();
+printf("enter the digit or  alphbet \n ");
+scanf("%c",&c);
+if(c>='a'&& c<='z'||c>='A'&& c<='Z')
+printf("it is alphabet");
+else if(c>='0' && c<='9')
+printf("it is digit");
+else
+printf("it is symbol");
+getch();
+}

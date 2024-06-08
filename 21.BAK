@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no,last,first;
+printf("enter 4digit no");
+scanf("%d",&no);
+last=no%10;
+first=no/100;
+printf("the first and last %d %d",first,last);
+getch();
+}

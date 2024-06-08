@@ -1,0 +1,16 @@
+/* Write a c program to check whether charcter is alpbhabet or not.
+*/
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main(){
+char c;
+printf("enter to check alphabet or not");
+scanf("%c",&c);
+if (c>='a' && c<='z') || (c>='A' && c<='Z'){
+printf("the char is alphabat"); }
+else  { printf("the char is not alphabat");
+}
+getch();
+}
+

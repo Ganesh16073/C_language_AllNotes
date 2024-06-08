@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no;
+clrscr();
+printf("enter the number \n");
+scanf("%d",&no) ;
+if(no%5==0)
+printf("num is disible by 5");
+if(no%11==0)
+printf("num is divisible by 11");
+if(no%5!=0 && no%11!=0)
+printf("no not divisible by 5 or 11");
+getch();
+}

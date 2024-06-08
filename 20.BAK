@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no,sum=0,rem;
+printf("enter 4digir num");
+scanf("%d",&no);
+rem=no%10 ;
+sum=sum+rem;
+
+no=no/10;
+rem=no%10 ;
+sum=sum+rem;
+
+no=no/10;
+rem=no%10 ;
+sum=sum+rem;
+
+no=no/10;
+rem=no%10 ;
+sum=sum+rem;
+printf("sum=%d",sum);
+getch();
+

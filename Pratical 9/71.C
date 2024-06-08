@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int a,b,choice;
+clrscr();
+printf("enter the two no \n");
+scanf("%d%d",&a,&b);
+printf("enter 1 for addition\n2 for subraction\n3 for multiplication\n4 for division");
+scanf("%d",&choice);
+switch(choice){
+case 1:
+	printf("addition of a and b is %d",a+b);
+	break;
+case 2:
+	printf("subraction of a and b is %d",a-b);
+	break;
+case 3:
+	printf("multiplication of a and b is %d",a*b);
+	break;
+case 4:
+	printf("division of a and b is %d",a/b);
+	break;
+default:
+	printf("Not valid");
+}
+getch();
+}

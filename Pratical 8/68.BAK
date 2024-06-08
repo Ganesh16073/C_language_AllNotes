@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int height;
+clrscr();
+printf("enter the hight \n");
+scanf("%d",&height);
+if(height<150){
+printf("person is dwarf \n");
+}
+else if(height>=150 && height<165)
+{
+printf("personn is average \n") ;
+}
+else if(height>=166 && height<=195);{
+printf("person is taller \n");
+}
+getch();
+}

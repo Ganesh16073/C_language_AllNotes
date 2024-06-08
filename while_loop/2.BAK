@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int base,ind,i=1,p=1;
+printf("enter the base and index");
+scanf("%d%d",&base,&ind);
+while(i<=ind){
+p=p*base;
+i++;
+}
+printf("the no is %d",p);
+getch();
+}

@@ -1,0 +1,14 @@
+/* find area of equalent triangle */
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main(){
+int side,area;
+clrscr();
+printf("enter the side of equalent triangle \n");
+scanf("%d",&side);
+area=(sqrt(3)/4*(side*side));
+printf("the area of equalent triangle is %d \n",area);
+getch();
+}
+

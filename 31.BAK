@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int c,vowel,cosonant;
+clrscr();
+printf("enter the character \n");
+scanf("%c",&c);
+c=='a'|| c=='e'|| c=='i'|| c=='o'|| c=='u' ? printf("it is vowel"):
+printf("it is consonant");
+getch();
+}
+
+
+

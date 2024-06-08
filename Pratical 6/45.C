@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int init,fin	;
+printf("enter the initiaal volume \n");
+scanf("%d",&init);
+printf("enter the final volume \n");
+scanf("%d",&fin);
+init<fin ? printf("volume up =%d",fin-init) :
+init>fin ? printf("volume down =%d",init-fin) :
+printf("no need to change");
+getch();
+}
+
+

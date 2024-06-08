@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int s1,s2,s3;
+clrscr();
+printf("enter the 3 side of triangle \n");
+scanf("%d%d%d",&s1,&s2,&s3);
+if(s1+s2+s3==180)
+printf("it is equlateral triangle");
+else if (s1==s2 ||s2==s3 ||s3==s1)
+printf("it is  isoscale");
+else
+printf("it is scalene");
+getch();
+}

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int rday,days,week,month,year;
+clrscr();
+printf("enter the no of days");
+scanf("%d",&days);
+year=days/365;
+month=days/30;
+week=days/7;
+rday=week ;
+printf("the no of days is %d \n year = %d \n month= %d \n week = %d \n ",days,year,month,week);
+getch();
+}
+

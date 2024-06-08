@@ -1,0 +1,28 @@
+/*Write a program in C to accept a grade and declare the equivalent description :
+			Grade 	Description
+			E 			Excellent
+			V 				Very Good
+			G 			Good
+			A 				Average
+			F 				Fail
+
+		Test Data :
+		Input the grade :A
+		Expected Output :
+		You have chosen : Average
+*/
+#include<stdio.h>
+#include<conio.h>
+void main(){
+char grade,e,v,g,a,f;
+clrscr();
+printf("enter your grade");
+scanf("%c",&grade);
+grade=='e' || grade=='E'? printf("excelent \n"):
+grade=='v' || grade=='V'? printf("very good \n"):
+grade=='g' || grade=='G'? printf("good \n"):
+grade=='a' || grade=='A'? printf("average \n"):
+grade=='f' || grade=='F'? printf("fail \n"):
+printf("grade does not exist");
+getch();
+}

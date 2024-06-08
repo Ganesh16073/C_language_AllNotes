@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+char grade,e,v,g,a,f;
+clrscr();
+printf("enter your grade");
+scanf("%c",&grade);
+grade=='e' || grade=='E'? printf("excelent \n"):
+grade=='v' || grade=='V'? printf("very good \n"):
+grade=='g' || grade=='G'? printf("good \n"):
+grade=='a' || grade=='A'? printf("average \n"):
+grade=='f' || grade=='E'? printf("fail \n"):
+printf("grade does not exist");
+getch();
+}

@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+char c;
+clrscr();
+printf("enter the char");
+scanf("%c",&c);
+c>='A'&& c<='Z' ? printf("it is uppercase") : printf("it is lower case");
+getch();
+}

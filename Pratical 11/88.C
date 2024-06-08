@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+long int no,rem,rev=0;
+clrscr();
+printf("enter a num to revers\n");
+scanf("%ld",&no);
+while(no!=0){
+rem=no%10;
+no=no/10;
+rev=rev*10+rem;
+}
+printf("the reverse of a number is %ld",rev);
+getch();
+}
+

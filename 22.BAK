@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no;
+printf("enter the num to find odd or even");
+scanf("%d",no);
+no%2==0 ? printf("the num is even"): printf("the no is odd");
+getch();
+}

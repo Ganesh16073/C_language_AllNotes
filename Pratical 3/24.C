@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int no1,no2,max;
+clrscr();
+printf("enter two number to find maximum number");
+scanf("%d %d",&no1,&no2);
+no1>no2 ? printf("%d is greater",no1) : printf("%d is greater",&no2);
+getch();
+}
